@@ -1,14 +1,10 @@
 # 每日一题
 
-**[daily-question ](https://github.com/amusi/daily-question)**涉及但不局限于机器学习、深度学习和计算机视觉等方向
+[daily-question ](https://github.com/amusi/daily-question) 涉及但不局限于机器学习、深度学习和计算机视觉等方向
 
 Warning：众人拾柴火焰高，如果大家有看到很好的题目，可以通过提交issue的方式把题目和答案分享出来，互相学习，一起进步
 
 
-
-# 题目
-
-1.【排序题】梯度下降算法的正确步骤是什么？（dcaeb）
 
 # 题目
 
