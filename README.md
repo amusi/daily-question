@@ -84,3 +84,17 @@ A/C 选项没有问题，只不过C中的"步伐"理解起来并不清晰。B/D�
 [正则化为什么能防止过拟合（重点地方标红了）](https://www.cnblogs.com/alexanderkun/p/6922428.html)
 
 [【机器学习】从贝叶斯角度理解正则化缓解过拟合](https://blog.csdn.net/u014433413/article/details/78408983)
+
+**6.假设你有5个大小为7x7、边界值（Padding）为0，步长（S）为1的卷积核。此时如果你向这一层传入一个维度为224x224x3的数据，那么神经网络下一层所接收到的数据维度是多少？（B）**
+
+A. 220x220x5
+
+B. 218x218x5
+
+C. 217x217x8
+
+D. 217x217x3
+
+解析：
+
+正确答案是B。卷积计算公式：Hout=（Himg+2Padding−Kfilterh）/S + 1；Wout=（Wimg+2Padding−Kfilterw）/S + 1。其中Padding是边界填空值，Kfilterw表示卷积核的宽度，S表示步长。
